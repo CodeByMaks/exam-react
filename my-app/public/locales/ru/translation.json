@@ -179,8 +179,28 @@
     "step_5_description": "Вы получите деньги за ваш аккаунт в течение 2-3 рабочих дней. Вы получите подтверждение.",
     "step_6_title": "Передача вашего аккаунта новому владельцу",
     "step_6_description": "Назначьте время для финальной демонстрации экрана. Мы поможем вам заполнить данные для передачи аккаунта."
-  }
-        
+  },
+  "Table":{
+    "aged_accounts_title": "Список старых аккаунтов на продажу",
+    "selling_label": "Продажа",
+    "table_business_name": "Название бизнеса",
+    "table_market": "Рынок",
+    "table_type": "Тип",
+    "table_account_age": "Возраст аккаунта",
+    "table_reviews": "Отзывы",
+    "table_ratio": "Рейтинг",
+    "table_price": "Цена",
+    "table_account_details": "Детали аккаунта",
+    "table_pro_account": "Профессиональный аккаунт",
+    "table_reviews_count": "{{count}} отзывов",
+    "table_positive_ratio": "{{ratio}}% положительных",
+    "table_prices": "{{price}} $",
+    "table_more_info": "Подробнее"
+  },
+  "Btn":{
+    "btn_learn_more": "Чтобы узнать больше о процессе, нажмите здесь ➤",
+    "btn_selling_account": "Хотите продать аккаунт? Перейдите на страницу ➤"
+  }        
   
   
   }

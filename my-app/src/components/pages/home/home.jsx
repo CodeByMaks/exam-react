@@ -89,40 +89,40 @@ const Home = () => {
      </section> {/*mala*/}
 
       <section className='md:w-[70%] w-[90%] m-auto md:py-28'>
-        <h1 className='text-center text-4xl font-bold pb-13'>List of aged accounts for sale</h1>
+        <h1 className="text-center text-4xl font-bold pb-13">{t("Table.aged_accounts_title")}</h1>
         <div class="overflow-x-auto">
           <div className='bg-gray-200 py-3'>
-          <p className='text-gray-600 ml-12'>Selling</p>
+          <p className="text-gray-600 ml-12">{t("Table.selling_label")}</p>
         </div>
         <table className="dark:text-black min-w-full bg-white shadow-md rounded-lg hidden md:table">
         <thead className="bg-gray-200">
-            <tr>
-                <th className="py-2 px-4 text-left">Business name</th>
-                <th className="py-2 px-4 text-left">Market</th>
-                <th className="py-2 px-4 text-left">Type</th>
-                <th className="py-2 px-4 text-left">Account age</th>
-                <th className="py-2 px-4 text-left">Reviews</th>
-                <th className="py-2 px-4 text-left">Ratio</th>
-                <th className="py-2 px-4 text-left">Price</th>
-                <th className="py-2 px-4 text-left">Account Details</th>
-            </tr>
+        <tr>
+          <th className="py-2 px-4 text-left">{t("Table.table_business_name")}</th>
+          <th className="py-2 px-4 text-left">{t("Table.table_market")}</th>
+          <th className="py-2 px-4 text-left">{t("Table.table_type")}</th>
+          <th className="py-2 px-4 text-left">{t("Table.table_account_age")}</th>
+          <th className="py-2 px-4 text-left">{t("Table.table_reviews")}</th>
+          <th className="py-2 px-4 text-left">{t("Table.table_ratio")}</th>
+          <th className="py-2 px-4 text-left">{t("Table.table_price")}</th>
+          <th className="py-2 px-4 text-left">{t("Table.table_account_details")}</th>
+        </tr>
           </thead>
             <tbody>
             <tr>
                 <td className="py-4 px-4 font-bold">Flagman_Shop</td>
                 <td className="py-2 px-4">
-                    <div className="flex items-center gap-2">
-                        <img className="w-5 h-5" src={united} alt="US Flag" />
-                        <p>US</p>
-                    </div>
+                  <div className="flex items-center gap-2">
+                    <img className="w-5 h-5" src={united} alt="US Flag" />
+                    <p>US</p>
+                  </div>
                 </td>
-                <td className="py-2 px-4">Pro Account</td>
+                <td className="py-2 px-4">{t("Table.table_pro_account")}</td>
                 <td className="py-2 px-4">2019</td>
-                <td className="py-2 px-4">6 reviews</td>
-                <td className="py-2 px-4">100% positive</td>
-                <td className="py-2 px-4">$1 000</td>
-                <td className="py-2 px-4 text-blue-700">More Info</td>
-            </tr>
+                <td className="py-2 px-4">{t("Table.table_reviews_count", { count: 6 })}</td>
+                <td className="py-2 px-4">{t("Table.table_positive_ratio", { ratio: 100 })}</td>
+                <td className="py-2 px-4">{t("Table.table_price", { price: "1 000" })}</td>
+                <td className="py-2 px-4 text-blue-700">{t("Table.table_more_info")}</td>
+             </tr>
                 <tr>
                     <td className="py-4 px-4 font-bold">Health Care Direct UK</td>
                     <td className="py-2 px-4 ">
@@ -131,72 +131,42 @@ const Home = () => {
                         <p>US</p>
                       </div>
                     </td>
-                    <td className="py-2 px-4 ">Pro Account</td>
-                    <td className="py-2 px-4 ">2019</td>
-                    <td className="py-2 px-4 ">6 reviews</td>
-                    <td className="py-2 px-4 ">100% positive</td>
-                    <td className="py-2 px-4 ">$1 000</td>
-                    <td className="py-2 px-4  text-blue-700">More Info</td>
+                    <td className="py-2 px-4">{t("Table.table_pro_account")}</td>
+                <td className="py-2 px-4">2019</td>
+                <td className="py-2 px-4">{t("Table.table_reviews_count", { count: 6 })}</td>
+                <td className="py-2 px-4">{t("Table.table_positive_ratio", { ratio: 100 })}</td>
+                <td className="py-2 px-4">{t("Table.table_price", { price: "1 000" })}</td>
+                <td className="py-2 px-4 text-blue-700">{t("Table.table_more_info")}</td>
                 </tr>
                 <tr>
-                    <td className="py-4 px-4 font-bold">Flagman_Shop</td>
-                    <td className="py-2 px-4 ">
-                      <div className='flex items-center gap-2'>
-                        <img className='w-5 h-5' src={united} alt="" />
-                        <p>US</p>
-                      </div>
-                    </td>
-                    <td className="py-2 px-4 ">Pro Account</td>
-                    <td className="py-2 px-4 ">2019</td>
-                    <td className="py-2 px-4 ">6 reviews</td>
-                    <td className="py-2 px-4 ">100% positive</td>
-                    <td className="py-2 px-4 ">$1 000</td>
-                    <td className="py-2 px-4  text-blue-700">More Info</td>
+                  <td className="py-4 px-4 font-bold">Flagman_Shop</td>
+                  <td className="py-2 px-4">
+                    <div className="flex items-center gap-2">
+                      <img className="w-5 h-5" src={united} alt="US Flag" />
+                      <p>US</p>
+                    </div>
+                  </td>
+                  <td className="py-2 px-4">{t("Table.table_pro_account")}</td>
+                  <td className="py-2 px-4">2019</td>
+                  <td className="py-2 px-4">{t("Table.table_reviews_count", { count: 6 })}</td>
+                  <td className="py-2 px-4">{t("Table.table_positive_ratio", { ratio: 100 })}</td>
+                  <td className="py-2 px-4">{t("Table.table_price", { price: "1 000" })}</td>
+                  <td className="py-2 px-4 text-blue-700">{t("Table.table_more_info")}</td>
                 </tr>
                 <tr>
-                    <td className="py-4 px-4 font-bold">Flagman_Shop</td>
-                    <td className="py-2 px-4 ">
-                      <div className='flex items-center gap-2'>
-                        <img className='w-5 h-5' src={united} alt="" />
-                        <p>US</p>
-                      </div>
-                    </td>
-                    <td className="py-2 px-4 ">Pro Account</td>
-                    <td className="py-2 px-4 ">2019</td>
-                    <td className="py-2 px-4 ">6 reviews</td>
-                    <td className="py-2 px-4 ">100% positive</td>
-                    <td className="py-2 px-4 ">$1 000</td>
-                    <td className="py-2 px-4  text-blue-700">More Info</td>
-                </tr>
-                <tr>
-                    <td className="py-4 px-4 font-bold">Health Care Direct UK</td>
-                    <td className="py-2 px-4 ">
-                      <div className='flex items-center gap-2'>
-                        <img className='w-5 h-5' src={unitedKing} alt="" />
-                        <p>GB</p>
-                      </div>
-                    </td>
-                    <td className="py-2 px-4 ">Pro Account</td>
-                    <td className="py-2 px-4 ">2019</td>
-                    <td className="py-2 px-4 ">6 reviews</td>
-                    <td className="py-2 px-4 ">100% positive</td>
-                    <td className="py-2 px-4 ">$1 000</td>
-                    <td className="py-2 px-4  text-blue-700">More Info</td>
-                </tr>
-                <tr>
-                    <td className="py-4 px-4 font-bold">Flagman_Shop</td>
-                    <td className="py-2 px-4 ">
-                      <div className='flex items-center gap-2'>
-                        <img className='w-5 h-5' src={unitedKing} alt="" />
-                        <p>GB</p>
-                      </div>
-                    </td>
-                    <td className="py-2 px-4 ">Pro Account</td>
-                    <td className="py-2 px-4 ">2019</td>
-                    <td className="py-2 px-4 ">6 reviews</td>
-                    <td className="py-2 px-4 ">98% positive</td>
-                    <td className="py-2 px-4 ">$1 000</td>
-                    <td className="py-2 px-4  text-blue-700">More Info</td>
+                  <td className="py-4 px-4 font-bold">Flagman_Shop</td>
+                  <td className="py-2 px-4">
+                    <div className="flex items-center gap-2">
+                      <img className="w-5 h-5" src={united} alt="US Flag" />
+                      <p>US</p>
+                    </div>
+                  </td>
+                  <td className="py-2 px-4">{t("Table.table_pro_account")}</td>
+                  <td className="py-2 px-4">2019</td>
+                  <td className="py-2 px-4">{t("Table.table_reviews_count", { count: 6 })}</td>
+                  <td className="py-2 px-4">{t("Table.table_positive_ratio", { ratio: 100 })}</td>
+                  <td className="py-2 px-4">{t("Table.table_price", { price: "1 000" })}</td>
+                  <td className="py-2 px-4 text-blue-700">{t("Table.table_more_info")}</td>
                 </tr>
                 <tr>
                     <td className="py-4 px-4 font-bold">Health Care Direct UK</td>
@@ -206,27 +176,57 @@ const Home = () => {
                         <p>GB</p>
                       </div>
                     </td>
-                    <td className="py-2 px-4 ">Pro Account</td>
-                    <td className="py-2 px-4 ">2019</td>
-                    <td className="py-2 px-4 ">6 reviews</td>
-                    <td className="py-2 px-4 ">87% positive</td>
-                    <td className="py-2 px-4 ">$1 000</td>
-                    <td className="py-2 px-4  text-blue-700">More Info</td>
+                    <td className="py-2 px-4">{t("Table.table_pro_account")}</td>
+                <td className="py-2 px-4">2019</td>
+                <td className="py-2 px-4">{t("Table.table_reviews_count", { count: 6 })}</td>
+                <td className="py-2 px-4">{t("Table.table_positive_ratio", { ratio: 100 })}</td>
+                <td className="py-2 px-4">{t("Table.table_price", { price: "1 000" })}</td>
+                <td className="py-2 px-4 text-blue-700">{t("Table.table_more_info")}</td>
                 </tr>
                 <tr>
-                    <td className="py-4 px-4 font-bold">Flagman_Shop</td>
+                  <td className="py-4 px-4 font-bold">Flagman_Shop</td>
+                  <td className="py-2 px-4">
+                    <div className="flex items-center gap-2">
+                      <img className="w-5 h-5" src={united} alt="US Flag" />
+                      <p>US</p>
+                    </div>
+                  </td>
+                  <td className="py-2 px-4">{t("Table.table_pro_account")}</td>
+                  <td className="py-2 px-4">2019</td>
+                  <td className="py-2 px-4">{t("Table.table_reviews_count", { count: 6 })}</td>
+                  <td className="py-2 px-4">{t("Table.table_positive_ratio", { ratio: 98 })}</td>
+                  <td className="py-2 px-4">{t("Table.table_price", { price: "1 000" })}</td>
+                  <td className="py-2 px-4 text-blue-700">{t("Table.table_more_info")}</td>
+                </tr>
+                <tr>
+                    <td className="py-4 px-4 font-bold">Health Care Direct UK</td>
                     <td className="py-2 px-4 ">
                       <div className='flex items-center gap-2'>
                         <img className='w-5 h-5' src={unitedKing} alt="" />
                         <p>GB</p>
                       </div>
                     </td>
-                    <td className="py-2 px-4 ">Pro Account</td>
-                    <td className="py-2 px-4 ">2019</td>
-                    <td className="py-2 px-4 ">6 reviews</td>
-                    <td className="py-2 px-4 ">80% positive</td>
-                    <td className="py-2 px-4 ">$1 000</td>
-                    <td className="py-2 px-4  text-blue-700">More Info</td>
+                    <td className="py-2 px-4">{t("Table.table_pro_account")}</td>
+                <td className="py-2 px-4">2019</td>
+                <td className="py-2 px-4">{t("Table.table_reviews_count", { count: 6 })}</td>
+                <td className="py-2 px-4">{t("Table.table_positive_ratio", { ratio: 88 })}</td>
+                <td className="py-2 px-4">{t("Table.table_price", { price: "1 000" })}</td>
+                <td className="py-2 px-4 text-blue-700">{t("Table.table_more_info")}</td>
+                </tr>
+                <tr>
+                  <td className="py-4 px-4 font-bold">Flagman_Shop</td>
+                  <td className="py-2 px-4">
+                    <div className="flex items-center gap-2">
+                      <img className="w-5 h-5" src={united} alt="US Flag" />
+                      <p>US</p>
+                    </div>
+                  </td>
+                  <td className="py-2 px-4">{t("Table.table_pro_account")}</td>
+                  <td className="py-2 px-4">2019</td>
+                  <td className="py-2 px-4">{t("Table.table_reviews_count", { count: 6 })}</td>
+                  <td className="py-2 px-4">{t("Table.table_positive_ratio", { ratio: 80 })}</td>
+                  <td className="py-2 px-4">{t("Table.table_price", { price: "1 000" })}</td>
+                  <td className="py-2 px-4 text-blue-700">{t("Table.table_more_info")}</td>
                 </tr>
             </tbody>
           </table>
@@ -356,14 +356,14 @@ const Home = () => {
            </div>
           </div>
 
-          <div className="flex flex-col md:flex-row items-center justify-center gap-4 py-6">
-            <button className="w-full md:w-[520px] border-3 border-amber-600 py-3 text-amber-600 text-center md:px-14">
-              To learn more about the process click here ➤
-            </button>
-            <button className="w-full md:w-[520px] border-3 border-amber-600 py-3 text-amber-600 text-center md:px-14">
-              Interested in Selling Account Visit page ➤
-            </button>
-        </div>
+      <div className="flex flex-col md:flex-row items-center justify-center gap-4 py-6">
+        <button className="w-full md:w-[520px] border-3 border-amber-600 py-3 text-amber-600 text-center md:px-14">
+          {t("Btn.btn_learn_more")}
+        </button>
+        <button className="w-full md:w-[520px] border-3 border-amber-600 py-3 text-amber-600 text-center md:px-14">
+          {t("Btn.btn_selling_account")}
+        </button>
+      </div>
 
      </section>
 

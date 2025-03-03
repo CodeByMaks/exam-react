@@ -179,7 +179,28 @@
     "step_5_description": "You will receive money for your account in 2-3 business days. You will get the confirmation.",
     "step_6_title": "Transferring your account to a new owner",
     "step_6_description": "Schedule a time for a final screen sharing session. We will help you to fill in details for your account transfer."
-  }        
-    
+  },
+  "Table": {
+    "aged_accounts_title": "List of aged accounts for sale",
+    "selling_label": "Selling",
+    "table_business_name": "Business name",
+    "table_market": "Market",
+    "table_type": "Type",
+    "table_account_age": "Account age",
+    "table_reviews": "Reviews",
+    "table_ratio": "Ratio",
+    "table_price": "Price",
+    "table_account_details": "Account Details",
+    "table_pro_account": "Pro Account",
+    "table_reviews_count": "{{count}} reviews",
+    "table_positive_ratio": "{{ratio}}% positive",
+    "table_prices": "${{price}}",
+    "table_more_info": "More Info"
+  },
+  "Btn": {
+    "btn_learn_more": "To learn more about the process click here ➤",
+    "btn_selling_account": "Interested in Selling Account? Visit page ➤"
+  }
+             
 
 }

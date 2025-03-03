@@ -179,7 +179,28 @@
       "step_5_description": "Шумо маблағи ҳисоби худро дар давоми 2-3 рӯзи корӣ мегиред. Шумо тасдиқи онро хоҳед гирифт.",
       "step_6_title": "Интиқоли ҳисоби шумо ба соҳиби нав",
       "step_6_description": "Барои ҷаласаи ниҳоии мубодилаи экран вақт таъин кунед. Мо ба шумо кӯмак мекунем, то тафсилоти интиқоли ҳисобатонро пур кунед."
-    }        
+    },
+    "Table":{
+      "aged_accounts_title": "Рӯйхати аккаунтҳои кӯҳна барои фурӯш",
+      "selling_label": "Фурӯш",
+      "table_business_name": "Номи тиҷорат",
+      "table_market": "Бозор",
+      "table_type": "Намуд",
+      "table_account_age": "Сину соли ҳисоб",
+      "table_reviews": "Баррасиҳо",
+      "table_ratio": "Таносуб",
+      "table_price": "Нарх",
+      "table_account_details": "Тафсилоти ҳисоб",
+      "table_pro_account": "Ҳисоби Pro",
+      "table_reviews_count": "{{count}} баррасиҳо",
+      "table_positive_ratio": "{{ratio}}% мусбӣ",
+      "table_prices": "{{price}} $",
+      "table_more_info": "Маълумоти бештар"
+    },
+    "Btn":{
+      "btn_learn_more": "Барои гирифтани маълумоти бештар, инҷоро клик кунед ➤",
+      "btn_selling_account": "Ҳисобро фурӯшед? Ба саҳифа гузаред ➤"
+    }                
                 
   
   }
