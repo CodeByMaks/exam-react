@@ -503,14 +503,14 @@ const Home = () => {
         <Comments />
 
         <section className='relative z-20'>
-          <h2 className="font-bold mt-20 text-4xl text-center">FAQ</h2>
+          <h2 className="font-bold mt-20 text-4xl text-center">{t("Faq.faq_title")}</h2>
           <div className="dark:text-black relative flex justify-between bg-white lg:w-[50%] w-[60%] mt-10 rounded-2xl items-center m-auto p-4 border border-gray-200 ">
             <div className="flex items-start gap-4">
               <img src={infoImg} />
               <div>
-                <p className="font-bold">General Inquiriest</p>
+                <p className="font-bold">{t("Faq.general_inquiries")}</p>
                 <p className="text-sm">
-                  Common information about the work of AmazMarkets.
+                {t("Faq.general_inquiries_description")}
                 </p>
               </div>
             </div>
@@ -520,10 +520,8 @@ const Home = () => {
             <div className="flex items-start gap-4">
               <img src={groupAll}/>
               <div>
-                <p className="font-bold">Multiple Seller Accounts</p>
-                <p className="text-sm">
-                Learn more about the process of creating multiple sellers accounts.
-                </p>
+              <p className="font-bold">{t("Gol.multiple_accounts_title")}</p>
+              <p className="text-sm">{t("Gol.multiple_accounts_desc")}</p>
               </div>
             </div>
             <p className='text-2xl'>⟱</p>
@@ -532,10 +530,8 @@ const Home = () => {
             <div className="flex items-start gap-4">
               <img src={credit} />
               <div>
-                <p className="font-bold">Payment Procedure</p>
-                <p className="text-sm">
-                  Payment methods and payments process itself.
-                </p>
+              <p className="font-bold">{t("Gol.payment_procedure_title")}</p>
+              <p className="text-sm">{t("Gol.payment_procedure_desc")}</p>
               </div>
             </div>
             <p className='text-2xl'>⟱</p>
@@ -544,10 +540,8 @@ const Home = () => {
             <div className="flex items-start gap-4">
               <img src={lock} />
               <div>
-                <p className="font-bold">Privacy and Security</p>
-                <p className="text-sm">
-                  Security of the account you buy and your personal data.
-                </p>
+              <p className="font-bold">{t("Gol.privacy_security_title")}</p>
+              <p className="text-sm">{t("Gol.privacy_security_desc")}</p>
               </div>
             </div>
             <p className='text-2xl'>⟱</p>
@@ -556,10 +550,8 @@ const Home = () => {
             <div className="flex items-start gap-4">
               <img src={moneyy} />
               <div>
-                <p className="font-bold">Refund Policy</p>
-                <p className="text-sm">
-                  SellerSpace policy regarding account returns and refunds.
-                </p>
+              <p className="font-bold">{t("Gol.refund_policy_title")}</p>
+              <p className="text-sm">{t("Gol.refund_policy_desc")}</p>
               </div>
             </div>
             <p className='text-2xl'>⟱</p>

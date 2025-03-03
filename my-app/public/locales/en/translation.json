@@ -200,7 +200,20 @@
   "Btn": {
     "btn_learn_more": "To learn more about the process click here ➤",
     "btn_selling_account": "Interested in Selling Account? Visit page ➤"
-  }
+  },
+  "Gol":{
+    "multiple_accounts_title": "Multiple Seller Accounts",
+    "multiple_accounts_desc": "Learn more about the process of creating multiple sellers accounts.",
+    
+    "payment_procedure_title": "Payment Procedure",
+    "payment_procedure_desc": "Payment methods and payments process itself.",
+    
+    "privacy_security_title": "Privacy and Security",
+    "privacy_security_desc": "Security of the account you buy and your personal data.",
+    
+    "refund_policy_title": "Refund Policy",
+    "refund_policy_desc": "SellerSpace policy regarding account returns and refunds."
+  }  
              
 
 }
