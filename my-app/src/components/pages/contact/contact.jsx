@@ -67,72 +67,67 @@ const Contact = () => {
     </section>
 
       <section className='md:w-[65%] w-[90%] m-auto py-28'>
-        <h1 className='text-4xl font-bold text-center'>What We Offer</h1>
-
+      <h1 className="text-4xl font-bold text-center">
+          {t("Bol.what_we_offer")}
+        </h1>
         <div>
           <div className='block md:flex justify-between gap-4 py-8'>
-            <div className='md:w-[355px] md:h-[500px] shadow-2xl flex flex-col items-center justify-start gap-8 px-3 py-8'>
+            <div className="md:w-[355px] md:h-[500px] shadow-2xl flex flex-col items-center justify-start gap-8 px-3 py-8">
               <img src={analys} alt="" />
-              <h1 className='text-3xl font-bold'>Analytics</h1>
-              <ul className='flex flex-col ml-5 text-gray-500 list-disc'>
-                <li>Analysis of the USA and European 
-                markets;</li>
-                <li>Selection of the niche and product on Amazon;</li>
-                <li>Business plan development.</li>
+              <h1 className="text-3xl font-bold">{t("Bol.analytics_title")}</h1>
+              <ul className="flex flex-col ml-5 text-gray-500 list-disc">
+                {t("Bol.analytics_points", { returnObjects: true }).map((point, index) => (
+                  <li key={index}>{point}</li>
+                ))}
               </ul>
             </div>
-            <div className='md:w-[355px] md:h-[500px] shadow-2xl flex flex-col items-center justify-start gap-8 px-3 py-8'>
+            <div className="md:w-[355px] md:h-[500px] shadow-2xl flex flex-col items-center justify-start gap-8 px-3 py-8">
               <img src={invertory} alt="" />
-              <h1 className='text-3xl font-bold'>Suppliers</h1>
-              <ul className='flex flex-col ml-5 text-gray-500 list-disc'>
-                <li>Supplier search;</li>
-                <li>Supplier revision;</li>
-                <li>Goods inspection;</li>
-                <li>Delivery of goods to Amazon warehouse.</li>
+              <h1 className="text-3xl font-bold">{t("Bol.suppliers_title")}</h1>
+              <ul className="flex flex-col ml-5 text-gray-500 list-disc">
+                {t("Bol.suppliers_points", { returnObjects: true }).map((point, index) => (
+                  <li key={index}>{point}</li>
+                ))}
               </ul>
             </div>
-            <div className='md:w-[355px] md:h-[500px] shadow-2xl flex flex-col items-center justify-start gap-8 px-3 py-8'>
+            <div className="md:w-[355px] md:h-[500px] shadow-2xl flex flex-col items-center justify-start gap-8 px-3 py-8">
               <img src={clipboard} alt="" />
-              <h1 className='text-3xl font-bold'>Listing</h1>
-              <ul className='flex flex-col ml-5 text-gray-500 list-disc'>
-                <li>Analysis of competitor’s reviews and goods;</li>
-                <li>Analysis of competitor’s reviews and goods;</li>
-                <li>Copywriting texts;</li>
-                <li>Product photosession (actionable, in studio);</li>
-                <li>Design of advertising images;</li>
-                <li>Creation of ready-made Amazon page.</li>
+              <h1 className="text-3xl font-bold">{t("Bol.listing_title")}</h1>
+              <ul className="flex flex-col ml-5 text-gray-500 list-disc">
+                {t("Bol.listing_points", { returnObjects: true }).map((point, index) => (
+                  <li key={index}>{point}</li>
+                ))}
               </ul>
             </div>
           </div>
           <div className='block md:flex justify-between gap-4 py-8'>
-            <div className='md:w-[355px] md:h-[500px] shadow-2xl flex flex-col items-center justify-start gap-8 px-3 py-8'>
+          <div className="md:w-[355px] md:h-[500px] shadow-2xl flex flex-col items-center justify-start gap-8 px-3 py-8">
               <img src={computer} alt="" />
-              <h1 className='text-3xl font-bold'>Branding</h1>
-              <ul className='flex flex-col ml-5 text-gray-500 list-disc'>
-                <li>Analysis of the USA and European 
-                markets;</li>
-                <li>Selection of the niche and product on Amazon;</li>
-                <li>Business plan development.</li>
+              <h1 className="text-3xl font-bold">{t("Bol.branding_title")}</h1>
+              <ul className="flex flex-col ml-5 text-gray-500 list-disc">
+                {t("Bol.branding_points", { returnObjects: true }).map((point, index) => (
+                  <li key={index}>{point}</li>
+                ))}
               </ul>
             </div>
-            <div className='md:w-[355px] md:h-[500px] shadow-2xl flex flex-col items-center justify-start gap-8 px-3 py-8'>
+
+            <div className="md:w-[355px] md:h-[500px] shadow-2xl flex flex-col items-center justify-start gap-8 px-3 py-8">
               <img src={bullihome} alt="" />
-              <h1 className='text-3xl font-bold'>Marketing</h1>
-              <ul className='flex flex-col ml-5 text-gray-500 list-disc'>
-                <li>Analysis of the USA and European 
-                markets;</li>
-                <li>Selection of the niche and product on Amazon;</li>
-                <li>Business plan development.</li>
+              <h1 className="text-3xl font-bold">{t("Bol.marketing_title")}</h1>
+              <ul className="flex flex-col ml-5 text-gray-500 list-disc">
+                {t("Bol.marketing_points", { returnObjects: true }).map((point, index) => (
+                  <li key={index}>{point}</li>
+                ))}
               </ul>
             </div>
-            <div className='md:w-[355px] md:h-[500px] shadow-2xl flex flex-col items-center justify-start gap-8 px-3 py-8'>
+
+            <div className="md:w-[355px] md:h-[500px] shadow-2xl flex flex-col items-center justify-start gap-8 px-3 py-8">
               <img src={folder} alt="" />
-              <h1 className='text-3xl font-bold'>Data scraping</h1>
-              <ul className='flex flex-col ml-5 text-gray-500 list-disc'>
-                <li>Analysis of the USA and European 
-                markets;</li>
-                <li>Selection of the niche and product on Amazon;</li>
-                <li>Business plan development.</li>
+              <h1 className="text-3xl font-bold">{t("Bol.data_scraping_title")}</h1>
+              <ul className="flex flex-col ml-5 text-gray-500 list-disc">
+                {t("Bol.data_scraping_points", { returnObjects: true }).map((point, index) => (
+                  <li key={index}>{point}</li>
+                ))}
               </ul>
             </div>
           </div>

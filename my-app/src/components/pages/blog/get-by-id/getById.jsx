@@ -2,7 +2,7 @@ import React from 'react'
 
 const GetById = () => {
   return (
-      <div>Reaction</div>
+    <div>getById</div>
   )
 }
 

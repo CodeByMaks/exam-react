@@ -120,7 +120,7 @@ const Home = () => {
                 <td className="py-2 px-4">2019</td>
                 <td className="py-2 px-4">{t("Table.table_reviews_count", { count: 6 })}</td>
                 <td className="py-2 px-4">{t("Table.table_positive_ratio", { ratio: 100 })}</td>
-                <td className="py-2 px-4">{t("Table.table_price", { price: "1 000" })}</td>
+                <td className="py-2 px-4">{t("Table.table_prices", { price: "1 000" })}</td>
                 <td className="py-2 px-4 text-blue-700">{t("Table.table_more_info")}</td>
              </tr>
                 <tr>
@@ -135,7 +135,7 @@ const Home = () => {
                 <td className="py-2 px-4">2019</td>
                 <td className="py-2 px-4">{t("Table.table_reviews_count", { count: 6 })}</td>
                 <td className="py-2 px-4">{t("Table.table_positive_ratio", { ratio: 100 })}</td>
-                <td className="py-2 px-4">{t("Table.table_price", { price: "1 000" })}</td>
+                <td className="py-2 px-4">{t("Table.table_prices", { price: "1 000" })}</td>
                 <td className="py-2 px-4 text-blue-700">{t("Table.table_more_info")}</td>
                 </tr>
                 <tr>
@@ -150,7 +150,7 @@ const Home = () => {
                   <td className="py-2 px-4">2019</td>
                   <td className="py-2 px-4">{t("Table.table_reviews_count", { count: 6 })}</td>
                   <td className="py-2 px-4">{t("Table.table_positive_ratio", { ratio: 100 })}</td>
-                  <td className="py-2 px-4">{t("Table.table_price", { price: "1 000" })}</td>
+                  <td className="py-2 px-4">{t("Table.table_prices", { price: "1 000" })}</td>
                   <td className="py-2 px-4 text-blue-700">{t("Table.table_more_info")}</td>
                 </tr>
                 <tr>
@@ -165,7 +165,7 @@ const Home = () => {
                   <td className="py-2 px-4">2019</td>
                   <td className="py-2 px-4">{t("Table.table_reviews_count", { count: 6 })}</td>
                   <td className="py-2 px-4">{t("Table.table_positive_ratio", { ratio: 100 })}</td>
-                  <td className="py-2 px-4">{t("Table.table_price", { price: "1 000" })}</td>
+                  <td className="py-2 px-4">{t("Table.table_prices", { price: "1 000" })}</td>
                   <td className="py-2 px-4 text-blue-700">{t("Table.table_more_info")}</td>
                 </tr>
                 <tr>
@@ -180,7 +180,7 @@ const Home = () => {
                 <td className="py-2 px-4">2019</td>
                 <td className="py-2 px-4">{t("Table.table_reviews_count", { count: 6 })}</td>
                 <td className="py-2 px-4">{t("Table.table_positive_ratio", { ratio: 100 })}</td>
-                <td className="py-2 px-4">{t("Table.table_price", { price: "1 000" })}</td>
+                <td className="py-2 px-4">{t("Table.table_prices", { price: "1 000" })}</td>
                 <td className="py-2 px-4 text-blue-700">{t("Table.table_more_info")}</td>
                 </tr>
                 <tr>
@@ -195,7 +195,7 @@ const Home = () => {
                   <td className="py-2 px-4">2019</td>
                   <td className="py-2 px-4">{t("Table.table_reviews_count", { count: 6 })}</td>
                   <td className="py-2 px-4">{t("Table.table_positive_ratio", { ratio: 98 })}</td>
-                  <td className="py-2 px-4">{t("Table.table_price", { price: "1 000" })}</td>
+                  <td className="py-2 px-4">{t("Table.table_prices", { price: "1 000" })}</td>
                   <td className="py-2 px-4 text-blue-700">{t("Table.table_more_info")}</td>
                 </tr>
                 <tr>
@@ -210,7 +210,7 @@ const Home = () => {
                 <td className="py-2 px-4">2019</td>
                 <td className="py-2 px-4">{t("Table.table_reviews_count", { count: 6 })}</td>
                 <td className="py-2 px-4">{t("Table.table_positive_ratio", { ratio: 88 })}</td>
-                <td className="py-2 px-4">{t("Table.table_price", { price: "1 000" })}</td>
+                <td className="py-2 px-4">{t("Table.table_prices", { price: "1 000" })}</td>
                 <td className="py-2 px-4 text-blue-700">{t("Table.table_more_info")}</td>
                 </tr>
                 <tr>
@@ -225,7 +225,7 @@ const Home = () => {
                   <td className="py-2 px-4">2019</td>
                   <td className="py-2 px-4">{t("Table.table_reviews_count", { count: 6 })}</td>
                   <td className="py-2 px-4">{t("Table.table_positive_ratio", { ratio: 80 })}</td>
-                  <td className="py-2 px-4">{t("Table.table_price", { price: "1 000" })}</td>
+                  <td className="py-2 px-4">{t("Table.table_prices", { price: "1 000" })}</td>
                   <td className="py-2 px-4 text-blue-700">{t("Table.table_more_info")}</td>
                 </tr>
             </tbody>
@@ -464,33 +464,31 @@ const Home = () => {
     </section>
 
       <section className='md:w-[70%] w-[90%] m-auto md:py-28 py-10 relative'>
-        <h1 className='text-4xl font-bold text-center'>Process</h1>
+        <h1 className="text-4xl font-bold text-center">{t("Fer.process_title")}</h1>
 
         <div className='md:w-[1061px] m-auto md:h-[297px] mt-11 flex flex-col md:flex-row items-center md:justify-between gap-7'>
-            <div className='w-[300px] md:h-[297px] flex flex-col justify-start items-center text-center gap-6'> 
-                <img src={numbOne} alt="" />
-                <h1 className='text-[20px] font-bold'>Check your account</h1>
-                <p>Check the account of your choice via TeamViewer or Any Desk. You inspect the account from your end to confirm your selection.</p>
-            </div>
+         <div className="w-[300px] md:h-[297px] flex flex-col justify-start items-center text-center gap-6">
+            <img src={numbOne} alt="" />
+            <h1 className="text-[20px] font-bold">{t("Fer.check_account_title")}</h1>
+            <p>{t("Fer.check_account_desc")}</p>
+        </div>
             <img className='abslute md:hidden block top-0' src={arrowRow} alt="" />
-            <div className='w-[300px] md:h-[297px] flex flex-col justify-start items-center text-center gap-6'> 
-                <img src={groupB} alt="" />
-                <h1 className='text-[20px] font-bold'>Payment</h1>
-                <p>We take a payment using your preferred method. We accept: Payoneer, bank transfer and bitcoin.</p>
+            <div className="w-[300px] md:h-[297px] flex flex-col justify-start items-center text-center gap-6">
+              <img src={groupB} alt="" />
+              <h1 className="text-[20px] font-bold">{t("Fer.payment_title")}</h1>
+              <p>{t("Fer.payment_desc")}</p>
             </div>
             <img className='abslute md:hidden block top-0' src={arrowRow} alt="" />
             <div className='w-[300px] h-[297px] flex flex-col justify-start items-center text-center gap-6'> 
                 <img src={groupC} alt="" />
-                <h1 className='text-[20px] font-bold'>Account ownership</h1>
-                <p>We give you all the log in details
-                to your new account. After that, you set up your own password and Two-Step authentification methods for your Amazon account and Virtual Proxy Server where your account is located.</p>
+                <h1 className='text-[20px] font-bold'>{t("Fer.account_ownership_title")}</h1>
+                <p>{t("Fer.account_ownership_desc")}</p>
             </div>
             <img className='abslute md:hidden block top-0' src={arrowRow} alt="" />
-            <div className='w-[300px] h-[297px] flex flex-col justify-start items-center text-center gap-6'> 
-                <img src={groupS} alt="" />
-                <h1 className='text-[20px] font-bold'>Account set up</h1>
-                <p>We help you set up the details like your deposit/change method, business address and legal entity
-                on your Amazon account.</p>
+            <div className="w-[300px] h-[297px] flex flex-col justify-start items-center text-center gap-6">
+              <img src={groupS} alt="" />
+              <h1 className="text-[20px] font-bold">{t("Fer.account_setup_title")}</h1>
+              <p>{t("Fer.account_setup_desc")}</p>
             </div>
         </div>
             <img className='md:block hidden absolute top-[37%] left-[16%]' src={firstArrow} alt="" />

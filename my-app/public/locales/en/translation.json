@@ -213,7 +213,59 @@
     
     "refund_policy_title": "Refund Policy",
     "refund_policy_desc": "SellerSpace policy regarding account returns and refunds."
-  }  
-             
+  },
+  "Fer":{
+    "check_account_title": "Check your account",
+    "check_account_desc": "Check the account of your choice via TeamViewer or AnyDesk. You inspect the account from your end to confirm your selection.",
+    "payment_title": "Payment",
+    "payment_desc": "We take a payment using your preferred method. We accept: Payoneer, bank transfer and bitcoin.",
+    "account_ownership_title": "Account ownership",
+    "account_ownership_desc": "We give you all the log in details to your new account. After that, you set up your own password and Two-Step authentication methods for your Amazon account and Virtual Proxy Server where your account is located.",
+    "account_setup_title": "Account set up",
+    "account_setup_desc": "We help you set up the details like your deposit/change method, business address and legal entity on your Amazon account.",
+    "process_title": "Process"
+  },
+  "Bol":{
+    "analytics_title": "Analytics",
+    "analytics_points": [
+      "Analysis of the USA and European markets;",
+      "Selection of the niche and product on Amazon;",
+      "Business plan development."
+    ],
+    "suppliers_title": "Suppliers",
+    "suppliers_points": [
+      "Supplier search;",
+      "Supplier revision;",
+      "Goods inspection;",
+      "Delivery of goods to Amazon warehouse."
+    ],
+    "listing_title": "Listing",
+    "listing_points": [
+      "Analysis of competitor’s reviews and goods;",
+      "Copywriting texts;",
+      "Product photosession (actionable, in studio);",
+      "Design of advertising images;",
+      "Creation of ready-made Amazon page."
+    ],
+    "branding_title": "Branding",
+  "branding_points": [
+    "Analysis of the USA and European markets;",
+    "Selection of the niche and product on Amazon;",
+    "Business plan development."
+  ],
+  "marketing_title": "Marketing",
+  "marketing_points": [
+    "Analysis of the USA and European markets;",
+    "Selection of the niche and product on Amazon;",
+    "Business plan development."
+  ],
+  "data_scraping_title": "Data Scraping",
+  "data_scraping_points": [
+    "Analysis of the USA and European markets;",
+    "Selection of the niche and product on Amazon;",
+    "Business plan development."
+  ],
+   "what_we_offer": "What We Offer"
+  }             
 
 }
