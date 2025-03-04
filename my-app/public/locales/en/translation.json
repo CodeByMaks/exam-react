@@ -290,5 +290,62 @@
     },
     "get": {
       "text1": "Many investors and crypto traders, who have not yet started their careers and are in the crypto-currency market, admit one serious mistake – they buy only bitcoins and don’t use crypto trading robot. To some extent this is correct, since bitcoin is the most famous asset and its growth has been quite significant lately. On the other hand, any professional trader and investor knows that the most important aspect of success is diversification. Accordingly, it is desirable to buy not only bitcoin, but also other cryptocurrencies. In this case, the fall of one of them can be compensated by the growth of the other. Another recommendation for beginner crypto traders is to find opportunities for arbitrage. This is one of the simplest strategies, which, at least, does not require any knowledge and does not require the study of crypto trading. The essence of this technique is that the trader is looking for a difference in prices for the same asset on two or more exchanges. When he finds such a difference, he takes advantage of the moment and profits from it. Let us give an example. Suppose a trader works with bitcoin, whose exchange rate on A is 10,000USD. At the exchange B for the same asset is 10 500USD. In this case, you need to buy BTC on Exchange A, and then sell the same asset on Exchange B. Dirty profit will be 500USD. Net trader will receive less, since the stock exchange in any case has commissions. In addition, certain amounts are lost on payments when replenishing the account and withdrawing funds. In any case, this strategy is interesting and today it is used by many traders. For beginners and not only they can recommend – never invest in transactions more than they can afford. First, it will significantly increase the psychological burden. Especially if money was borrowed from relatives or acquaintances, or on credit with a bank. Secondly, debts and credit will have to be returned in case of failure. Most often, this permanently, if not forever, discourages people from engaging in crypto trading and investing. Therefore, initially, it is better to risk insignificant amounts that a trader can afford to lose. Finally, it is important to remember the risks. The fact is that crypto-currencies are very volatile. Daily fluctuations can reach 20-40%. Here, as wide opportunities open up, so are huge risks. It is important first of all to understand all the dangers. In this case, the trader will be able to minimize risks through his actions."
-    }      
+    },
+    "SecNext":{
+      "breadcrumb": {
+        "utility_bills": "Home / Services / Utility Bills & Invoices"
+      },
+      "utility_bills": {
+        "title": "Utility Bills for Amazon Account Verification",
+        "description": "You will receive complete documents in English ready to send out."
+      },
+      "buttons": {
+        "get_started": "Get Started"
+      },
+      "scroll": "Scroll"
+    },
+    "documents": {
+      "title": "Documents ready to send out",
+      "electricity_bill": "Electricity Bill",
+      "gas_water_bill": "Gas/Water Bill",
+      "internet_bill": "Internet Bill",
+      "rapidity": "Rapidity",
+      "english_language": "English Language",
+      "manual": "Manual"
+    },
+    "request": {
+    "title": "Leave a request to get your utility bill",
+    "subtitle": "It will take you less than sixty seconds. A member of our team will contact you shortly after.",
+    "email_placeholder": "Email Address*",
+    "phone_placeholder": "Telephone number",
+    "message_placeholder": "Your message",
+    "send_button": "Send"
+  },
+  "invoices": {
+    "title1": "Invoices for Amazon from a US supplier with a call",
+    "description1": "You will receive complete documents in English ready to send out.",
+    "button1": "Get an invoice",
+    "title2": "Invoices from a US supplier",
+    "description2": "This is an officially registered US wholesale supplier: The whole process will take place within the US law and complying with all Amazon requirements.",
+    "description3": "You receive invoices with all the instructions in 1-2 days after ordering. The supplier can also answer Amazon call on invoices."
+  },
+  "invoiceUnlock": {
+    "title": "Invoices can unlock",
+    "description": "If you receive an invoice request, then you can do more than just unlocking your account.",
+    "account": "Invoice is requested to verify your account or in connection with some violations.",
+    "listing": "If you want permission to add a listing to your inventory.",
+    "category": "If you want to have access to a certain category."
+  },
+  "amazonCall": {
+    "title": "We will answer an Amazon call on invoices",
+    "description": "In 90% of cases, Amazon calls suppliers on invoices. If the company doesn’t manage to contact the supplier, then you will receive an email that Amazon was 'unable to verify the supplier'."
+  },
+  "utilityBill": {
+    "title": "Leave a request to get your utility bill",
+    "description": "It will take you less than sixty seconds. A member of our team will contact you shortly after.",
+    "emailPlaceholder": "Email Address*",
+    "phonePlaceholder": "Telephone number",
+    "messagePlaceholder": "Your message",
+    "sendButton": "Send"
+  }          
 }

@@ -293,7 +293,7 @@ const Blog = () => {
         </div>
       </div>
 
-      <div className="w-[85%] m-auto grid grid-cols-1 md:grid-cols-2 md:py-16 lg:grid-cols-3 gap-16 p-6">
+      <div title="Нажми для продолжения" className="w-[85%] m-auto grid grid-cols-1 md:grid-cols-2 md:py-16 lg:grid-cols-3 gap-16 p-6">
         {cards.map((card) => (
           <Link key={card.id} to={`/blog/${card.id}`}>
             <div key={card.id} className="">
